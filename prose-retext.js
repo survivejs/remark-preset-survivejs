@@ -6,7 +6,6 @@ var english = require('retext-english');
 var sentenceSpacing = require('retext-sentence-spacing');
 var repeated = require('retext-repeated-words');
 var indefinite = require('retext-indefinite-article');
-var intensify = require('retext-intensify');
 
 module.exports = attacher;
 
@@ -16,6 +15,5 @@ function attacher() {
     .use(sentenceSpacing, {preferred: 1})
     .use(repeated)
     .use(indefinite)
-    .use(intensify)
   );
 }
