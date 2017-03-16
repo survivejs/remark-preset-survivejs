@@ -20,7 +20,7 @@ exports.plugins = [
   require('remark-lint-no-shortcut-reference-image'),
   require('remark-lint-no-shortcut-reference-link'),
   require('remark-lint-no-undefined-references'),
-  require('remark-lint-no-unused-definitions')
+  require('remark-lint-no-unused-definitions'),
   require('remark-comment-config'),
   require('remark-validate-links'),
   [require('remark-lint-checkbox-character-style'), {checked: 'x', unchecked: ' '}],
