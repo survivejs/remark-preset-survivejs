@@ -1,13 +1,13 @@
-# remark-preset-wooorm [![Build Status][travis-badge]][travis]
+# remark-preset-survivejs [![Build Status][travis-badge]][travis]
 
-:tada: My personal markdown and prose style.
+:tada: Book markdown and prose style.
 
 ## Installation
 
 [npm][npm-install]:
 
 ```sh
-npm install remark-cli remark-preset-wooorm --save
+npm install remark-cli remark-preset-survivejs --save
 ```
 
 Now add the following to your `package.json`:
@@ -18,7 +18,7 @@ Now add the following to your `package.json`:
     "test": "npm run build-md && ..."
   },
   "remarkConfig": {
-    "preset": "wooorm"
+    "preset": "survivejs"
   },
 ```
 
@@ -46,9 +46,8 @@ npm test
 
 ###### Natural Language
 
-*   Two [spaces][] between sentences;
+*   One [space][] between sentences;
 *   Checks [“indefinite articles”][articles]: “a” or “an”;
-*   Checks [quotes and apostrophes][quotes] (`""` > `“”`);
 *   Checks accidental [repeated words][repeated];
 *   Checks incorrectly placed apostrophes in [contractions][].
 

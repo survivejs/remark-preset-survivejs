@@ -1,12 +1,12 @@
 {
-  "name": "remark-preset-wooorm",
-  "version": "2.0.0",
-  "description": "Personal markdown and prose style",
+  "name": "remark-preset-survivejs",
+  "version": "0.0.0",
+  "description": "Book markdown and prose style",
   "license": "MIT",
   "keywords": [
     "remark",
     "preset",
-    "wooorm"
+    "survivejs"
   ],
   "files": [
     "prose-retext.js",
@@ -67,11 +67,12 @@
     "retext-sentence-spacing": "^2.0.0",
     "unified": "^6.0.0"
   },
-  "repository": "https://github.com/wooorm/remark-preset-wooorm",
-  "bugs": "https://github.com/wooorm/remark-preset-wooorm/issues",
-  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+  "repository": "https://github.com/survivejs/remark-preset-survivejs",
+  "bugs": "https://github.com/survivejs/remark-preset-survivejs/issues",
+  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com), Juho Vepsäläinen",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+    "Juho Vepsäläinen"
   ],
   "devDependencies": {
     "remark-cli": "^3.0.0",
